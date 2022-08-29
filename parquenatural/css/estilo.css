@@ -1,33 +1,54 @@
-html{
+html {
     font-family: 'Lucida Sans Unicode';
-    
+
 }
 
-
-.engloba{
-    border: 5px solid rgb(184, 182, 182);
-}
-
-
-body{
+body {
     text-align: justify;
     padding: 10px 15px;
-    margin:auto;
+    margin: auto;
+    width: 900px;
 }
 
-.descrip{
-    border:1px solid rgb(184, 182, 182);
+.engloba {
+    border: 5px solid rgb(184, 182, 182);
+    display: inline-block;
+}
+
+.centro {
+    display: flex;
+}
+
+.menu {
+    float: left;
+    width: 100px;
+    float: left;
+}
+
+.descrip {
+    border: 1px solid rgb(184, 182, 182);
     padding: 10px 15px;
-    margin:15px;
+    margin: 15px;
+    width: 700px;
+    float: right;
+
+
 }
 
-h1{
+
+
+h1 {
     text-align: center;
+    letter-spacing: .2em;
+    padding: 10px 10px 10px 10px;
     color: rgb(135, 187, 56);
 }
 
-h3{
+h3 {
     color: rgb(134, 186, 56);
 }
 
-h4,.orange{color :rgb(207, 141, 19)}
+h4,
+.orange {
+    color: rgb(207, 141, 19)
+}
